@@ -1,12 +1,63 @@
 /* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/* Variables */
+:root {
+    --primary-color: #f96163;
+    --secondary-color: #f6f4fa;
+    --accent-color: #3c444c;
+    --white-color: #fff;
+}
 
 /* Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 12px;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--accent-color);
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: var(--white-color);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+form input {
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+    /* color: inherit; */
+}
 
 /* Search Area */
 
+
 /* Search Results */
+
 
 /* ScrollBar */
 
+
 /* Media Queries */
+
