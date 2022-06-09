@@ -10,6 +10,8 @@ This a food recipe app made with JavaScript. This app uses the [ API](https://) 
 
 
 ## How It Works
-
+- Search for any food item e.g "chicken"
+- You will be served with recipes for that food item
+- To view more aboubt that recipe, click on the "View More" button
 
 ## How It Looks
