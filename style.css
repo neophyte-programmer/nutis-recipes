@@ -179,7 +179,15 @@ a {
     color: var(--accent-color);
 }
 /* ScrollBar */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--white-color);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(60, 68, 76, .3);
+    border-radius: 10px;
+}
 
 
-
-/* Media Queries */
