@@ -15,15 +15,18 @@
             <h1 class="brand">
                 Nuti's Recipe App
             </h1>
-            <form class="input__container">
-                <input type="text" name="search" placeholder="Search for a recipe..." class="input">
+            <form class="input__container search-form">
+                <input type="text" name="search" placeholder="Search for a recipe..." class="input search-input">
                 <ion-icon name="search-outline" class="search__icon"></ion-icon>
             </form>
             <div class="search__result">
                 <div class="search__item">
                     <div class="rating">
-                        <ion-icon name="star-outline" class="star__icon"></ion-icon>
-                        4.7
+                        <ion-icon name="hourglass-outline" class="time__icon"></ion-icon>
+                        <span class="duration">
+                            60
+                            <span class="duration-string">m</span>
+                        </span>
                     </div>
                     <img src="./placeholder-img.jpg" alt="" class="search__item-img">
                     <div class="flex__container">
@@ -31,69 +34,26 @@
                         <a href="#" class="btn">View </a>
 
                     </div>
-                    <p class="search__item-data">
-                        Calories: <span>500</span>
-                    </p>
-                </div>
-                <div class="search__item">
-                    <div class="rating">
-                        <ion-icon name="star-outline" class="star__icon"></ion-icon>
-                        4.7
+                    <div class="search__item-data">
+                        <div class="calories">
+                            <ion-icon name="flame-outline" class="calories__icon"></ion-icon>
+                            <span class="calories-value">
+                                100
+                                <span class="calories-string">kcal</span>
+                        </div>
+                        <div class="meal__type">
+                            <ion-icon name="pizza-outline" class="meal__type-icon"></ion-icon>
+                            <span class="meal__type-value">
+                                Lunch
+                            </span>
+                        </div>
                     </div>
-                    <img src="./placeholder-img.jpg" alt="" class="search__item-img">
-                    <div class="flex__container">
-                        <h1 class="search__item-title">Noodles</h1>
-                        <a href="#" class="btn">View </a>
-
+                    <div class="search__item-nationality">
+                        <ion-icon name="flag-outline" class="meal__type-icon" ></ion-icon>
+                        <span class="nationality">
+                            Mexican
+                        </span>
                     </div>
-                    <p class="search__item-data">
-                        Calories: <span>500</span>
-                    </p>
-                </div>
-                <div class="search__item">
-                    <div class="rating">
-                        <ion-icon name="star-outline" class="star__icon"></ion-icon>
-                        4.7
-                    </div>
-                    <img src="./placeholder-img.jpg" alt="" class="search__item-img">
-                    <div class="flex__container">
-                        <h1 class="search__item-title">Noodles</h1>
-                        <a href="#" class="btn">View </a>
-
-                    </div>
-                    <p class="search__item-data">
-                        Calories: <span>500</span>
-                    </p>
-                </div>
-                <div class="search__item">
-                    <div class="rating">
-                        <ion-icon name="star-outline" class="star__icon"></ion-icon>
-                        4.7
-                    </div>
-                    <img src="./placeholder-img.jpg" alt="" class="search__item-img">
-                    <div class="flex__container">
-                        <h1 class="search__item-title">Noodles</h1>
-                        <a href="#" class="btn">View </a>
-
-                    </div>
-                    <p class="search__item-data">
-                        Calories: <span>500</span>
-                    </p>
-                </div>
-                <div class="search__item">
-                    <div class="rating">
-                        <ion-icon name="star-outline" class="star__icon"></ion-icon>
-                        4.7
-                    </div>
-                    <img src="./placeholder-img.jpg" alt="" class="search__item-img">
-                    <div class="flex__container">
-                        <h1 class="search__item-title">Noodles</h1>
-                        <a href="#" class="btn">View </a>
-
-                    </div>
-                    <p class="search__item-data">
-                        Calories: <span>500</span>
-                    </p>
                 </div>
             </div>
         </div>
