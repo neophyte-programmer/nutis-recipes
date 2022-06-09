@@ -4,6 +4,7 @@ const searchForm = document.querySelector('.search-form')
 const searchInput = document.querySelector('.search-input')
 const searchResult = document.querySelector('.search__result')
 const container = document.querySelector('.container')
+const searchIcon = document.querySelector('.search__icon')
 // Stores app ID and app key
 const APP_ID = '2343a8e9'
 const APP_KEY = '570fa7f53e979dd545cf1eac36c8aed9'
@@ -90,3 +91,4 @@ const search = (e) => {
 // Event Listeners
 
 searchForm.addEventListener('submit', search)
+searchIcon.addEventListener('click', search)
