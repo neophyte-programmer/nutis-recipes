@@ -3,17 +3,17 @@
 
 /* Variables */
 :root {
-    --primary-color: #f96163;
-    --secondary-color: #f6f4fa;
-    --accent-color: #3c444c;
-    --white-color: #fff;
+	--primary-color: #f96163;
+	--secondary-color: #f6f4fa;
+	--accent-color: #3c444c;
+	--white-color: #fff;
 }
 
 /* Base Styling */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /* html {
@@ -21,43 +21,91 @@
 } */
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: var(--accent-color);
+	font-family: 'Poppins', sans-serif;
+	color: var(--accent-color);
 }
 
 section {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 100px 0;
-    background-color: var(--white-color);
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 100px 0;
+	background-color: var(--white-color);
 }
 
 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 form input {
-    font-family: inherit;
+	font-family: inherit;
 }
 
 a {
-    text-decoration: none;
-    /* color: inherit; */
+	text-decoration: none;
+	/* color: inherit; */
+}
+
+.container {
+	width: 90%;
+	height: auto;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 /* Search Area */
 
+.brand {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color: var(--primary-color);
+}
+
+.input__container {
+	width: 90%;
+	max-width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	margin: 0 auto;
+}
+
+.input {
+	width: 100%;
+	height: 100%;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	outline: none;
+	border: 1px solid var(--primary-color);
+	margin-bottom: 1rem;
+	display: inline-block;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.search__icon {
+    /* position: absolute; */
+    /* right: 0; */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+    transform: translateX(-100%);
+    padding: 0.4rem;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: transparent;
+
+}
 
 /* Search Results */
 
-
 /* ScrollBar */
 
-
 /* Media Queries */
-
