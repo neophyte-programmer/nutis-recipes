@@ -141,9 +141,15 @@ a {
     border-top-left-radius: 1rem;
 }
 
-.star__icon {
+.time__icon {
     font-size: .9rem;
     margin-bottom: .15rem;
+    color: var(--primary-color);
+}
+
+.calories__icon, .meal__type-icon {
+    font-size: 1.1rem;
+    /* margin-bottom: .15rem; */
     color: var(--primary-color);
 }
 
@@ -153,7 +159,7 @@ a {
     border-radius: 1rem;
 }
 
-.flex__container {
+.flex__container, .calories, .meal__type {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -174,10 +180,18 @@ a {
     border-radius: 1rem;
 }
 
-.search__item-data {
+.search__item-data, .search__item-nationality {
     font-size: .8rem;
     color: var(--accent-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.search__item-nationality {
+    justify-content: flex-start;
+}
+
 /* ScrollBar */
 ::-webkit-scrollbar {
     width: 10px;
