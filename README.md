@@ -14,4 +14,9 @@ This a food recipe app made with JavaScript. This app uses the [ API](https://) 
 - You will be served with recipes for that food item
 - To view more aboubt that recipe, click on the "View More" button
 
+## What I Learnt
+- How to use APIs by reading documentation
+- A little bit of Async/Await
+- Fetching data from API
+
 ## How It Looks
