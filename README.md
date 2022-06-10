@@ -1,13 +1,11 @@
 # Nuti's Recipe App
-This a food recipe app made with JavaScript. This app uses the [ API](https://) to fetch recipes and display them. This is inspired by [Dev Ed's Recipe App With React](https://www.youtube.com/watch?v=U9T6YkEDkMo). 
-
-
-## Features
+This a food recipe app made with JavaScript. This app uses the [Edamam Recipe API](https://developer.edamam.com/edamam-recipe-api) to fetch recipes and display them.  
 
 ## Resources
 - [Ionicons](https://ionic.io/ionicons)
+- [Edamam](https://www.edamam.com/)
 ## Live Site
-
+Check out the [live site](https://nutis-recipes.netlify.app/)
 
 ## How It Works
 - Search for any food item e.g "chicken"
@@ -18,5 +16,9 @@ This a food recipe app made with JavaScript. This app uses the [ API](https://) 
 - How to use APIs by reading documentation
 - A little bit of Async/Await
 - Fetching data from API
+- A practice of styling with CSS
 
 ## How It Looks
+![](screenshots/home.png)
+![](screenshots/search.png)
+![](screenshots/not-found.png)
